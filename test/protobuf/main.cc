@@ -3,7 +3,7 @@
 #include <string>
 using namespace fixbug;
 
-int main() {
+int test1() {
     LoginRequest req;
     req.set_name( "zhang san" );
     req.set_pwd( "123456" );
@@ -20,5 +20,24 @@ int main() {
         std::cout << reqB.name() << std::endl;
         std::cout << reqB.pwd() << std::endl;
     }
+}
+
+void test2() {
+    // LoginResponse rsp;
+    // ResultCode *rc = rsp.mutable_result();
+    // rc->set_errcode( 0 );
+    // rc->set_errmsg( "登录处理失败了" );
+
+    GetFriendListResponse rsp;
+    ResultCode *rc = rsp.mutable_result();
+    rc->set_errcode( 0 );
+    User *user1 = rsp.add_friend_list();
+    user1->set_name( "zhang san" );
+    user1->set_sex( User::MAN );
+
+    std::cout << rsp.friend_list_size() << std::endl;
+}
+int main() {
+    test2();
     return 0;
 }
