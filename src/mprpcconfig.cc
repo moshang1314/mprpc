@@ -32,9 +32,9 @@ void MprpcConfig::LoadConfigFile( const char *config_file ) {
         key = read_buf.substr( 0 , idx );
         Trim( key );
         // 127.0.0.1  \n
-        int endidx = read_buf.find( '\\n' , idx );
+        int endidx = read_buf.find( '\n' , idx );
         
-        value = read_buf.substr( idx + 1 , endidx - idx );
+        value = read_buf.substr( idx + 1 , endidx - idx - 1);
         Trim( value );
         m_configMap.insert( { key, value } );
     }
