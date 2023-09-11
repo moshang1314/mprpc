@@ -1,4 +1,4 @@
-set(SRC_LIST calluserservice.cc ../user.pb.cc mprpcchannel.cc)
+set(SRC_LIST calluserservice.cc ../user.pb.cc)
 
 add_executable(consumer ${SRC_LIST})
-target_link_libraries(provider mprpc protobuf)
+target_link_libraries(consumer mprpc protobuf)

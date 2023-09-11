@@ -120,7 +120,7 @@ void RpcProvider::OnMessage( const muduo::net::TcpConnectionPtr &conn , muduo::n
         std::cout << "request parse error, content:" << args_str << std::endl;
         return;
     }
-    google::protobuf::Message *response = service->GetRequestPrototype( method ).New();
+    google::protobuf::Message *response = service->GetResponsePrototype( method ).New();
 
     // 给下面method方法的调用，绑定一个Closure的回调函数
     google::protobuf::Closure *done = google::protobuf::NewCallback<RpcProvider ,
