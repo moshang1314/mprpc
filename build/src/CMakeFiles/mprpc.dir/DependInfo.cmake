@@ -4,11 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/li/CPP/mprpc/src/logger.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/logger.cc.o"
   "/home/li/CPP/mprpc/src/mprpcapplication.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
   "/home/li/CPP/mprpc/src/mprpcchannel.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
   "/home/li/CPP/mprpc/src/mprpcconfig.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
+  "/home/li/CPP/mprpc/src/mprpccontroler.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/mprpccontroler.cc.o"
+  "/home/li/CPP/mprpc/src/mprpcprovider.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o"
   "/home/li/CPP/mprpc/src/rpcheader.pb.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
-  "/home/li/CPP/mprpc/src/rpcprovider.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+  "/home/li/CPP/mprpc/src/zookeeperutil.cc" "/home/li/CPP/mprpc/build/src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

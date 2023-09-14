@@ -125,6 +125,33 @@ mprpc/fast:
 	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
+logger.o: logger.cc.o
+
+.PHONY : logger.o
+
+# target to build an object file
+logger.cc.o:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cc.o
+.PHONY : logger.cc.o
+
+logger.i: logger.cc.i
+
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cc.i:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cc.i
+.PHONY : logger.cc.i
+
+logger.s: logger.cc.s
+
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cc.s:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cc.s
+.PHONY : logger.cc.s
+
 mprpcapplication.o: mprpcapplication.cc.o
 
 .PHONY : mprpcapplication.o
@@ -206,6 +233,60 @@ mprpcconfig.cc.s:
 	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s
 .PHONY : mprpcconfig.cc.s
 
+mprpccontroler.o: mprpccontroler.cc.o
+
+.PHONY : mprpccontroler.o
+
+# target to build an object file
+mprpccontroler.cc.o:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroler.cc.o
+.PHONY : mprpccontroler.cc.o
+
+mprpccontroler.i: mprpccontroler.cc.i
+
+.PHONY : mprpccontroler.i
+
+# target to preprocess a source file
+mprpccontroler.cc.i:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroler.cc.i
+.PHONY : mprpccontroler.cc.i
+
+mprpccontroler.s: mprpccontroler.cc.s
+
+.PHONY : mprpccontroler.s
+
+# target to generate assembly for a file
+mprpccontroler.cc.s:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroler.cc.s
+.PHONY : mprpccontroler.cc.s
+
+mprpcprovider.o: mprpcprovider.cc.o
+
+.PHONY : mprpcprovider.o
+
+# target to build an object file
+mprpcprovider.cc.o:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o
+.PHONY : mprpcprovider.cc.o
+
+mprpcprovider.i: mprpcprovider.cc.i
+
+.PHONY : mprpcprovider.i
+
+# target to preprocess a source file
+mprpcprovider.cc.i:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcprovider.cc.i
+.PHONY : mprpcprovider.cc.i
+
+mprpcprovider.s: mprpcprovider.cc.s
+
+.PHONY : mprpcprovider.s
+
+# target to generate assembly for a file
+mprpcprovider.cc.s:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcprovider.cc.s
+.PHONY : mprpcprovider.cc.s
+
 rpcheader.pb.o: rpcheader.pb.cc.o
 
 .PHONY : rpcheader.pb.o
@@ -233,32 +314,32 @@ rpcheader.pb.cc.s:
 	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
 .PHONY : rpcheader.pb.cc.s
 
-rpcprovider.o: rpcprovider.cc.o
+zookeeperutil.o: zookeeperutil.cc.o
 
-.PHONY : rpcprovider.o
+.PHONY : zookeeperutil.o
 
 # target to build an object file
-rpcprovider.cc.o:
-	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
-.PHONY : rpcprovider.cc.o
+zookeeperutil.cc.o:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o
+.PHONY : zookeeperutil.cc.o
 
-rpcprovider.i: rpcprovider.cc.i
+zookeeperutil.i: zookeeperutil.cc.i
 
-.PHONY : rpcprovider.i
+.PHONY : zookeeperutil.i
 
 # target to preprocess a source file
-rpcprovider.cc.i:
-	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.i
-.PHONY : rpcprovider.cc.i
+zookeeperutil.cc.i:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cc.i
+.PHONY : zookeeperutil.cc.i
 
-rpcprovider.s: rpcprovider.cc.s
+zookeeperutil.s: zookeeperutil.cc.s
 
-.PHONY : rpcprovider.s
+.PHONY : zookeeperutil.s
 
 # target to generate assembly for a file
-rpcprovider.cc.s:
-	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.s
-.PHONY : rpcprovider.cc.s
+zookeeperutil.cc.s:
+	cd /home/li/CPP/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cc.s
+.PHONY : zookeeperutil.cc.s
 
 # Help Target
 help:
@@ -269,6 +350,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... mprpc"
 	@echo "... edit_cache"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
@@ -278,12 +362,18 @@ help:
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... mprpccontroler.o"
+	@echo "... mprpccontroler.i"
+	@echo "... mprpccontroler.s"
+	@echo "... mprpcprovider.o"
+	@echo "... mprpcprovider.i"
+	@echo "... mprpcprovider.s"
 	@echo "... rpcheader.pb.o"
 	@echo "... rpcheader.pb.i"
 	@echo "... rpcheader.pb.s"
-	@echo "... rpcprovider.o"
-	@echo "... rpcprovider.i"
-	@echo "... rpcprovider.s"
+	@echo "... zookeeperutil.o"
+	@echo "... zookeeperutil.i"
+	@echo "... zookeeperutil.s"
 .PHONY : help
 
 

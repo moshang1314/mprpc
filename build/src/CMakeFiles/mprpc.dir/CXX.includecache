@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+-
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -22,6 +42,34 @@ google/protobuf/message.h
 unordered_map
 -
 string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
+-
+string
+-
+
+../src/include/mprpcprovider.h
+google/protobuf/service.h
+-
+muduo/net/TcpServer.h
+-
+muduo/net/EventLoop.h
+-
+muduo/net/InetAddress.h
+-
+muduo/net/TcpConnection.h
+-
+muduo/base/Timestamp.h
+-
+string
+-
+functional
+-
+google/protobuf/descriptor.h
+-
+unordered_map
 -
 
 ../src/include/rpcheader.pb.h
@@ -62,26 +110,20 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-../src/include/rpcprovider.h
-google/protobuf/service.h
+../src/include/zookeeperutil.h
+semaphore.h
 -
-muduo/net/TcpServer.h
--
-muduo/net/EventLoop.h
--
-muduo/net/InetAddress.h
--
-muduo/net/TcpConnection.h
--
-muduo/base/Timestamp.h
+zookeeper/zookeeper.h
 -
 string
 -
-functional
+
+/home/li/CPP/mprpc/src/logger.cc
+logger.h
+/home/li/CPP/mprpc/src/logger.h
+time.h
 -
-google/protobuf/descriptor.h
--
-unordered_map
+iostream
 -
 
 /home/li/CPP/mprpc/src/mprpcapplication.cc
@@ -99,6 +141,10 @@ rpcheader.pb.h
 /home/li/CPP/mprpc/src/rpcheader.pb.h
 mprpcapplication.h
 /home/li/CPP/mprpc/src/mprpcapplication.h
+mprpccontroller.h
+/home/li/CPP/mprpc/src/mprpccontroller.h
+zookeeperutil.h
+/home/li/CPP/mprpc/src/zookeeperutil.h
 string
 -
 sys/types.h
@@ -121,6 +167,22 @@ iostream
 -
 string
 -
+
+/home/li/CPP/mprpc/src/mprpccontroler.cc
+mprpccontroller.h
+/home/li/CPP/mprpc/src/mprpccontroller.h
+
+/home/li/CPP/mprpc/src/mprpcprovider.cc
+mprpcprovider.h
+/home/li/CPP/mprpc/src/mprpcprovider.h
+rpcheader.pb.h
+/home/li/CPP/mprpc/src/rpcheader.pb.h
+mprpcapplication.h
+/home/li/CPP/mprpc/src/mprpcapplication.h
+logger.h
+/home/li/CPP/mprpc/src/logger.h
+zookeeperutil.h
+/home/li/CPP/mprpc/src/zookeeperutil.h
 
 /home/li/CPP/mprpc/src/rpcheader.pb.cc
 rpcheader.pb.h
@@ -146,11 +208,13 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/li/CPP/mprpc/src/rpcprovider.cc
-rpcprovider.h
-/home/li/CPP/mprpc/src/rpcprovider.h
-rpcheader.pb.h
-/home/li/CPP/mprpc/src/rpcheader.pb.h
+/home/li/CPP/mprpc/src/zookeeperutil.cc
+zookeeperutil.h
+/home/li/CPP/mprpc/src/zookeeperutil.h
 mprpcapplication.h
 /home/li/CPP/mprpc/src/mprpcapplication.h
+semaphore.h
+-
+iostream
+-
 

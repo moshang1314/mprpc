@@ -7,6 +7,8 @@ example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
 example/callee/CMakeFiles/provider.dir/userservice.cc.o
  ../example/user.pb.h
  ../src/include/mprpcapplication.h
+ ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
- ../src/include/rpcprovider.h
+ ../src/include/mprpccontroller.h
+ ../src/include/mprpcprovider.h
  /home/li/CPP/mprpc/example/callee/userservice.cc

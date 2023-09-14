@@ -3,7 +3,7 @@
 #include <vector>
 #include "friend.pb.h"
 #include "mprpcapplication.h"
-#include "rpcprovider.h"
+#include "mprpcprovider.h"
 
 class FriendService : public ::fixbug::FriendServiceRpc{
 public:

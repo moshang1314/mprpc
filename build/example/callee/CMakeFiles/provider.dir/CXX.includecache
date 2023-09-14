@@ -49,6 +49,18 @@ google/protobuf/port_undef.inc
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
+
+../src/include/mprpcchannel.h
+google/protobuf/service.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/message.h
+-
 
 ../src/include/mprpcconfig.h
 unordered_map
@@ -56,7 +68,13 @@ unordered_map
 string
 -
 
-../src/include/rpcprovider.h
+../src/include/mprpccontroller.h
+google/protobuf/service.h
+-
+string
+-
+
+../src/include/mprpcprovider.h
 google/protobuf/service.h
 -
 muduo/net/TcpServer.h
@@ -87,8 +105,8 @@ user.pb.h
 /home/li/CPP/mprpc/example/callee/user.pb.h
 mprpcapplication.h
 /home/li/CPP/mprpc/example/callee/mprpcapplication.h
-rpcprovider.h
-/home/li/CPP/mprpc/example/callee/rpcprovider.h
+mprpcprovider.h
+/home/li/CPP/mprpc/example/callee/mprpcprovider.h
 
 /home/li/CPP/mprpc/example/user.pb.cc
 user.pb.h
